@@ -1,5 +1,546 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900|Teko:300,400,500,600,700&display=swap");
+/* 
+updated
+*/
 
+
+
+/** projects section **/
+
+.projects {
+    padding-top: 90px;
+    background: #fff;
+}
+
+.relative3 {
+    position: inherit;
+    padding-bottom: 130px;
+}
+
+.projects_ban {
+    padding: 0 20px;
+}
+
+.project_img figure {
+    margin: 0;
+}
+
+.project_img figure img {
+    width: 100%;
+}
+
+.project_text {
+    position: absolute;
+    bottom: 0;
+    height: 123px;
+    overflow: hidden;
+    padding: 20px 20px 20px 20px;
+    margin-right: 15px;
+    transition: ease-in all 0.5s;
+}
+
+
+/*
+.project_text::before {
+    position: absolute;
+    content: "";
+    background: url(../images/link.png);
+    width: 77px;
+    height: 77px;
+    top: 0;
+    background-repeat: no-repeat;
+    right: 10px;
+}
+*/
+
+.project_text:hover {
+    cursor: pointer;
+    background-color: #fffffff2;
+    height: 303px;
+    transition: ease-in all 0.5s;
+}
+
+#pro_ho:hover.project_text h3 {
+    color: #1b1a1a;
+    transition: ease-in all 0.5s;
+    padding-top: 20px;
+}
+
+.project_text h3 {
+    transition: ease-in all 0.5s;
+    color: #fff;
+    text-align: left;
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.project_text p {
+    color: #1b1a1a;
+    font-size: 17px;
+    text-align: left;
+    line-height: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+
+#proj .carousel-control-prev,
+#proj .carousel-control-next {
+    width: 47px;
+    height: 47px;
+    background: #252525;
+    opacity: 1;
+    font-size: 19px;
+    color: #fff;
+    top: 88%;
+    border-radius: 40px;
+}
+
+#proj .carousel-control-prev:hover,
+#proj .carousel-control-next:hover,
+#proj .carousel-control-prev:focus,
+#proj .carousel-control-next:focus {
+    background: #fe9901;
+    color: #fff;
+}
+
+#proj .carousel-control-prev {
+    left: 46%;
+}
+
+#proj .carousel-control-next {
+    right: 46%;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+
+/** end projects section **/
+
+
+.col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%; }
+
+    .align-self-stretch {
+        -ms-flex-item-align: stretch !important;
+        -ms-grid-row-align: stretch !important;
+        align-self: stretch !important; } 
+
+        .align-items-center {
+            -webkit-box-align: center !important;
+            -ms-flex-align: center !important;
+            align-items: center !important; }
+
+            .justify-content-center {
+                -webkit-box-pack: center !important;
+                -ms-flex-pack: center !important;
+                justify-content: center !important; }
+
+                .justify-content-md-end {
+                    -webkit-box-pack: end !important;
+                    -ms-flex-pack: end !important;
+                    justify-content: flex-end !important; }
+/* mission and vission*/
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
+@media (max-width: 767.98px) {
+    .img-video {
+      height: 400px; } }
+
+      .icon-video {
+        width: 80px;
+        height: 80px;
+        background: #fdbe34;
+        -webkit-animation: pulse 2s infinite;
+        animation: pulse 2s infinite;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%; }
+        @media (min-width: 768px) {
+          .icon-video {
+            margin-right: -35px; } }
+        .icon-video span {
+          font-size: 20px;
+          color: #fff; }  
+
+.ftco-section-parallax {
+    position: relative; }
+    .ftco-section-parallax .parallax-img {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      padding: 4em 0; }
+    .ftco-section-parallax .heading-section-white h2 {
+      font-weight: 400 !important; }
+
+      
+.ftco-section {
+    padding: 7em 0;
+    position: relative; }
+    @media (max-width: 767.98px) {
+      .ftco-section {
+        padding: 6em 0; } }
+  
+  .ftco-bg-dark {
+    background: #3c312e; }
+  
+  .ftco-no-pt {
+    padding-top: 0 !important; }
+  
+  .ftco-no-pb {
+    padding-bottom: 0 !important; }
+  
+/* end mission and vission*/
+/* about section */
+
+about {
+    background-color: #fff;
+    padding-top: 90px;
+}
+
+.about .titlepage {
+    max-width: 666px;
+    float: right;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.about .titlepage span {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.about_img {
+    padding-right: 0px;
+    padding-left: 55px;
+    margin-top: 50px;
+    
+}
+.tabulation-2 .nav-pills .nav-item .nav-link {
+    background: #fff;
+    border-radius: 4px;
+    color: #000000;
+    font-weight: 600;
+    border: 1px solid rgba(0, 0, 0, 0.1); }
+    .tabulation-2 .nav-pills .nav-item .nav-link span {
+      color: #4834fd; }
+    .tabulation-2 .nav-pills .nav-item .nav-link.active {
+      color: #fff;
+      background: #4834fd;
+      border: 1px solid #fdbe34; }
+      .tabulation-2 .nav-pills .nav-item .nav-link.active span {
+        color: #fff; }
+  
+  .tabulation-2 .tab-content {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.05); }
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important; }
+
+.col-md-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; }
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 100%;
+}
+
+
+/** end about section **/
+
+.titlepage {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.titlepage h2 {
+    font-size: 40px;
+    margin-top: 50px;
+    color: #1c1c1c;
+    line-height: 40px;
+    font-weight: 700;
+    padding: 0;
+}
+
+.titlepage span {
+    font-size: 17px;
+    line-height: 25px;
+    color: #0a0a0a;
+    padding-top: 30px;
+    display: block;
+}
+
+/* about section */
+/* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+.services-area {
+    background: #13151b;
+  }
+  
+  /* line 3, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services {
+    position: relative;
+  }
+  
+  /* line 6, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services .services-img img {
+    width: 100%;
+  }
+  
+  /* line 10, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services .services-caption {
+    background: #fff;
+    width: 100%;
+    padding: 33px 20px 30px 72px;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    transform: translateY(0px);
+    position: absolute;
+  }
+  
+  /* line 17, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services .services-caption h3 {
+    margin-bottom: 15px;
+    line-height: 13px;
+    font-family: "Barlow", sans-serif;
+    position: relative;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+  }
+  
+  /* line 23, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services .services-caption h3 a {
+    color: #222222;
+    font-weight: 700;
+    font-size: 24px;
+    display: block;
+  }
+  
+  /* line 28, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services .services-caption h3 a:hover {
+    color: #2145e4;;
+  }
+  
+  /* line 32, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services .services-caption h3::before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 2px;
+    top: 0;
+    left: -46px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #2145e4;;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+  }
+  
+  /* line 45, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services .services-caption p {
+    color: #2c234d;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    line-height: 1.5;
+  }
+  
+  /* line 53, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services .services-caption .pera1 {
+    display: block;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    line-height: 1.5;
+  }
+  
+  /* line 59, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services .services-caption .pera2 {
+    display: none;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    line-height: 1.5;
+  }
+  
+  /* line 68, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services:hover .services-caption {
+    background: #2145e4;
+    transform: translateY(-40px);
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+  }
+  
+  /* line 72, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services:hover .services-caption h3 {
+    color: #FFF;
+  }
+  
+  /* line 74, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services:hover .services-caption h3 a {
+    color: #fff;
+  }
+  
+  /* line 77, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services:hover .services-caption h3::before {
+    background: #ffffff;
+  }
+  
+  /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services:hover .services-caption p {
+    color: #fff;
+  }
+  
+  /* line 84, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services:hover .services-caption .pera1 {
+    display: none;
+  }
+  
+  /* line 87, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
+  .services-area .single-services:hover .services-caption .pera2 {
+    display: block;
+  }
+
+  .section-tittle {
+    margin-bottom: 50px;
+  }
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 925, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+  .section-tittle {
+    margin-bottom: 50px;
+  }
+}
+
+/* line 933, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+.section-tittle span {
+  font-size: 16px;
+  display: block;
+  color: #bb1010;
+  margin-top: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+/* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+.section-tittle h2 {
+  font-size: 50px;
+  display: block;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+  .section-tittle h2 {
+    font-size: 42px;
+    color: #ffffff;
+  }
+  
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+  .section-tittle h2 {
+    font-size: 31px;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 941, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+  .section-tittle h2 {
+    font-size: 30px;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+}
+
+/* line 958, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+.section-tittle p {
+  color: #717b9b;
+}
+
+/* line 963, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+.section-tittle.profession-details span {
+  color: #383838;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* line 969, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+.section-tittle.profession-details h2 {
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+/* line 973, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+.section-tittle.profession-details p {
+  color: #383838;
+  margin-bottom: 21px;
+  font-size: 20px;
+}
+
+/* line 981, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+.section-tittle2 h2 {
+  color: #fff;
+}
+
+/* line 984, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+.section-tittle2 p {
+  color: #fff;
+}
+
+
+
+/* 
+done
+*/
 .white-bg {
     background: #ffffff
 }
@@ -153,6 +694,7 @@ p {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 15px;
+    text-align: center;
     font-weight: normal
 }
 
@@ -747,7 +1289,10 @@ hr {
 }
 
 .mb-20 {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    
 }
 
 .mb-25 {
@@ -2214,18 +2759,24 @@ hr {
 }
 
 .section-tittle .front-text {
-    position: relative;
-    z-index: 2
+    position: sticky;
+    
 }
 
 .section-tittle .front-text h2 {
     color: #0e132a;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 1.2;
     text-transform: uppercase;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Teko", sans-serif
+    
 }
+
+
 
 @media (max-width: 575px) {
     .section-tittle .front-text h2 {
@@ -3212,7 +3763,7 @@ hr {
 }
 
 .services-area1 .single-service-cap .service-cap h4 a {
-    color: #0e132a;
+    color: #2e396b;
     font-size: 24px;
     font-weight: 700
 }
@@ -3593,7 +4144,10 @@ hr {
 
 .single-team .team-img {
     overflow: hidden;
+    width: auto;
+    height: auto;
     margin-bottom: 19px
+    
 }
 
 .single-team .team-img img {
@@ -6169,10 +6723,73 @@ hr {
     background-image: -ms-linear-gradient(170deg, rgba(34, 34, 34, 0) 0%, #000 100%)
 }
 
+.text
+.site-section {
+    padding: 2.5em 0; }
+    @media (min-width: 768px) {
+      .site-section {
+        padding: 5em 0; } }
+    .site-section.site-section-sm {
+      padding: 4em 0; }
+      .site-section-cover {
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center; }
+        .site-section-cover,
+        .site-section-cover .container {
+          position: relative;
+          z-index: 2; }
+        .site-section-cover,
+        .site-section-cover .container > .row {
+          height: calc(100vh - 196px);
+          min-height: 577px; }
+          @media (max-width: 991.98px) {
+            .site-section-cover,
+            .site-section-cover .container > .row {
+              height: calc(70vh - 196px);
+              min-height: 400px; } }
+        .site-section-cover.overlay {
+          position: relative; }
+          .site-section-cover.overlay:before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: 1; }
+        .site-section-cover.inner-page,
+        .site-section-cover.inner-page .container > .row {
+          height: auto;
+          min-height: auto;
+          padding: 2em 0; }
+        .site-section-cover.img-bg-section {
+          background-size: cover;
+          background-repeat: no-repeat; }
+        .site-section-cover h1 {
+          font-size: 3rem;
+          color: #fff;
+          line-height: 1; }
+          @media (max-width: 991.98px) {
+            .site-section-cover h1 {
+              font-size: 2rem; } }
+        .site-section-cover p {
+          font-size: 18px;
+          color: #fff; }
+      
+      .site-section {
+        padding: 7rem 0; }
+        @media (max-width: 991.98px) {
+          .site-section {
+            padding: 3rem 0; } }
+        
+
 .hero-overly::before {
-    background-image: -moz-linear-gradient(0deg, rgba(2, 8, 52, 0.74902) 0%, rgba(2, 8, 52, 0.14902) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgba(2, 8, 52, 0.74902) 0%, rgba(2, 8, 52, 0.14902) 100%);
-    background-image: -ms-linear-gradient(0deg, rgba(2, 8, 52, 0.74902) 0%, rgba(2, 8, 52, 0.14902) 100%)
+        /* background-image: -moz-linear-gradient(0deg, rgba(2, 8, 52, 0.74902) 0%, rgba(2, 8, 52, 0.14902) 100%); */
+    background-image: -webkit-linear-gradient(0deg, rgba(2, 8, 52, 0.74902) 0%, rgba(2, 8, 52, 0.14902) 80%);
+    background-image: -ms-linear-gradient(0deg, rgba(2, 8, 52, 0.74902) 0%, rgba(2, 8, 52, 0.14902) 50%)
 }
 
 .sample-text-area {
@@ -7269,7 +7886,13 @@ del {
 
 .section-top-border {
     padding: 50px 0;
+    text-align: center;
     border-top: 1px dotted #eee
+}
+
+.section-top-border p{
+
+    text-align: center;
 }
 
 .mb-30 {

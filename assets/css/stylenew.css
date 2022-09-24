@@ -1,0 +1,72 @@
+
+.truck {
+    padding-top: 90px;
+}
+
+.truck_img1 {
+    width: 244px;
+    height: 147px;
+    position: relative;
+    position: relative;
+    -webkit-animation: myfirst 15s linear 0s infinite alternate;
+    /* Safari 4.0 - 8.0 */
+    animation: myfirst 15s linear 0s infinite alternate;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes myfirst {
+    0% {
+         left: 0px;
+         top: 0;
+    }
+    20% {
+         left: 10%;
+         top: 0;
+    }
+    40% {
+         left: 20%;
+         top: 0;
+    }
+    60% {
+         left: 30%;
+         top: 0;
+    }
+    80% {
+         left: 40%;
+         top: 0;
+    }
+    100% {
+         left: 50%;
+         top: 0;
+         ;
+    }
+    /* Standard syntax */
+    @keyframes myfirst {
+         0% {
+              left: 0px;
+              top: 0;
+         }
+         20% {
+              left: 10%;
+              top: 0;
+         }
+         40% {
+              left: 20%;
+              top: 0;
+         }
+         60% {
+              left: 30%;
+              top: 0;
+         }
+         80% {
+              left: 40%;
+              top: 0;
+         }
+         100% {
+              left: 50%;
+              top: 0;
+              transform: rotateY(180deg)
+         }
+    }
