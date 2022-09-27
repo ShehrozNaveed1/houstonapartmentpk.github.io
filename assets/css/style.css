@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900|Teko:300,400,500,600,700&display=swap");
+
+
+/*video frame responsive*/
 .iframe-container{
     position: relative;
     width: 100%;
@@ -12,6 +15,15 @@
     width: 100%;
     height: 100%;
   }
+
+  
+/*video frame responsive*/
+
+
+/*play button css*/
+
+
+
 about {
     background-color: #fff;
     padding-top: 90px;
