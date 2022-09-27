@@ -2293,7 +2293,16 @@ hr {
     position: relative;
     z-index: 2
 }
+.section-tittle .front-text h3{
 
+    color: #C9191D;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Arial", sans-serif
+}
 .section-tittle .front-text h2 {
     color: #0e132a;
     font-size: 60px;
