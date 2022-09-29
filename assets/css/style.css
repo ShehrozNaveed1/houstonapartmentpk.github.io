@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900|Teko:300,400,500,600,700&display=swap");
 
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
 /*video frame responsive*/
 .iframe-container{
     position: relative;
@@ -5806,7 +5820,7 @@ hr {
 }
 
 .comment-form .form-control {
-    border: 1px solid #f0e9ff;
+    border: 1px solid #19181b;
     border-radius: 5px;
     height: 48px;
     padding-left: 18px;
@@ -5821,11 +5835,11 @@ hr {
 
 .comment-form .form-control::placeholder {
     font-weight: 300;
-    color: #999999
+    color: #201f1f
 }
 
 .comment-form .form-control::placeholder {
-    color: #777777
+    color: #1d1b1b
 }
 
 .comment-form textarea {
@@ -5906,7 +5920,7 @@ hr {
 }
 
 .form-contact .form-control {
-    border: 1px solid #e5e6e9;
+    border: 1px solid #5a5858;
     border-radius: 0px;
     height: 48px;
     padding-left: 18px;
@@ -5921,7 +5935,7 @@ hr {
 
 .form-contact .form-control::placeholder {
     font-weight: 300;
-    color: #999999
+    color: #383737
 }
 
 .form-contact textarea {
